@@ -13,7 +13,7 @@ function date(callback) {
     setTimeout(function (){
         let date = new Date;
         callback(date)
-    }, 3000)
+    }, 6000)
 }
 
 function printDate(dateNow) {
